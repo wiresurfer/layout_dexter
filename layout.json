@@ -1,0 +1,63 @@
+{
+    "frontView":{
+        "class":"UIView",
+        "frame":[0,0,320,568],
+        "format":"absolute",
+        "background":[255,255,255,1.0],
+        "children":[
+                    {
+                        "statusBar":{
+                            "class":"UIView",
+                            "frame":[0,0,320,60],
+                            "format":"absolute",
+                            "background":[255,255,255,0.8],
+                            "children":[
+                                        {
+                                        "backButton":{
+                                                "class":"UIButton",
+                                                "frame":[10,22,25,25],
+                                                "img" :"back-25.png"
+                                              }
+                                        },
+                                        {
+                                        "statusLabel":{
+                                                "class":"UILabel",
+                                                "frame":[0,5,320,60],
+                                                "text" :"Dynamic Layout Demo",
+                                                "textColor":[0,0,0,0.8],
+                                                "textAlignment":"center"
+                                            }
+                                        
+                                        },
+                                        {
+                                        "settingsButton":{
+                                                "class":"UIButton",
+                                                "frame":[285,22,25,25],
+                                                "img":"share-25.png"
+                                        
+                                            }
+                                        }
+                            ]
+                        }
+                    },
+                    {
+                        "content":{
+                            "class":"UIView",
+                            "frame":[0,60,320,464],
+                            "format":"absolute",
+                            "background":[0,100,0,0.8],
+                            "children_remote":"http://127.0.0.1/~admin/remote.json"
+                        }
+                    },
+                    {
+                        "navBar":{
+                            "class":"UIToolbar",
+                            "frame":[0,524,320,44],
+                            "format":"absolute",
+                            "background":[200,100,100,1.0]
+                        }
+                    }
+        ]
+    }
+    
+}

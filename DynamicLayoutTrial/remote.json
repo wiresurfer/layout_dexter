@@ -1,0 +1,60 @@
+{
+"content_remote":{
+       "class":"UIView",
+       "format":"absolute",
+       "background":[255,255,255,0.8],
+       "children":[
+                   {
+                   "item1":{
+                            "class":"UILabel",
+                            "frame":[0,60,320,60],
+                            "text" :"Dynamic item1",
+                            "textColor":[0,0,0,0.8],
+                            "textAlignment":"center"
+                         }
+                   },
+                   {
+                   "item2":{
+                           "class":"UILabel",
+                           "frame":[0,120,320,60],
+                           "text" :"Dynamic Item 2",
+                           "textColor":[0,0,0,0.8],
+                           "textAlignment":"center"
+                       }
+                   
+                   },
+                   {
+                   "item3":{
+                            "class":"UILabel",
+                            "frame":[0,180,320,60],
+                            "text" :"Dynamic Item 3",
+                            "textColor":[0,0,0,0.8],
+                            "textAlignment":"center"
+                   
+                       }
+                   },
+                             {
+                             "statusLabel":{
+                                     "class":"UILabel",
+                                     "frame":[0,0,320,60],
+                                     "text" :"Dynamic Item with Btn",
+                                     "textColor":[0,0,0,0.8],
+                                     "textAlignment":"center"
+                                 }
+
+                             },
+                             {
+                             "settingsButton":{
+                                     "class":"UIButton",
+                                     "frame":[285,22,25,25],
+                                     "img":"plus-25.png"
+
+                                 }
+                             }
+
+
+       ]
+   }
+
+
+}

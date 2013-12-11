@@ -22,6 +22,12 @@
 		840FF5C91858FFF60056924C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840FF5A81858FFF50056924C /* UIKit.framework */; };
 		840FF5D11858FFF60056924C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5CF1858FFF60056924C /* InfoPlist.strings */; };
 		840FF5D31858FFF60056924C /* DynamicLayoutTrialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FF5D21858FFF60056924C /* DynamicLayoutTrialTests.m */; };
+		840FF5DE185900160056924C /* SBDynamicLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FF5DD185900160056924C /* SBDynamicLayoutView.m */; };
+		840FF5E1185901E50056924C /* layout.json in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5E0185901E50056924C /* layout.json */; };
+		840FF5E61859177D0056924C /* share-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5E51859177D0056924C /* share-25.png */; };
+		840FF5E8185917940056924C /* back-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5E7185917940056924C /* back-25.png */; };
+		840FF5ED185925C40056924C /* plus-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5EC185925C40056924C /* plus-25.png */; };
+		840FF5EF185927B70056924C /* remote.json in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5EE185927B70056924C /* remote.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,14 @@
 		840FF5CE1858FFF60056924C /* DynamicLayoutTrialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynamicLayoutTrialTests-Info.plist"; sourceTree = "<group>"; };
 		840FF5D01858FFF60056924C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		840FF5D21858FFF60056924C /* DynamicLayoutTrialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicLayoutTrialTests.m; sourceTree = "<group>"; };
+		840FF5DC185900160056924C /* SBDynamicLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDynamicLayoutView.h; sourceTree = "<group>"; };
+		840FF5DD185900160056924C /* SBDynamicLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBDynamicLayoutView.m; sourceTree = "<group>"; };
+		840FF5E0185901E50056924C /* layout.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = layout.json; path = ../layout.json; sourceTree = "<group>"; };
+		840FF5E2185910730056924C /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		840FF5E51859177D0056924C /* share-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "share-25.png"; path = "../share-25.png"; sourceTree = "<group>"; };
+		840FF5E7185917940056924C /* back-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back-25.png"; path = "../back-25.png"; sourceTree = "<group>"; };
+		840FF5EC185925C40056924C /* plus-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-25.png"; sourceTree = "<group>"; };
+		840FF5EE185927B70056924C /* remote.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = remote.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +117,7 @@
 		840FF5A31858FFF50056924C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				840FF5E2185910730056924C /* Reveal.framework */,
 				840FF5A41858FFF50056924C /* Foundation.framework */,
 				840FF5A61858FFF50056924C /* CoreGraphics.framework */,
 				840FF5A81858FFF50056924C /* UIKit.framework */,
@@ -114,14 +129,12 @@
 		840FF5AA1858FFF50056924C /* DynamicLayoutTrial */ = {
 			isa = PBXGroup;
 			children = (
-				840FF5B31858FFF60056924C /* SBAppDelegate.h */,
-				840FF5B41858FFF60056924C /* SBAppDelegate.m */,
-				840FF5B61858FFF60056924C /* Main_iPhone.storyboard */,
-				840FF5B91858FFF60056924C /* Main_iPad.storyboard */,
+				840FF5EA185923EF0056924C /* Assets */,
+				840FF5DF185900EC0056924C /* BaseFiles */,
 				840FF5BC1858FFF60056924C /* SBViewController.h */,
 				840FF5BD1858FFF60056924C /* SBViewController.m */,
-				840FF5BF1858FFF60056924C /* Images.xcassets */,
 				840FF5AB1858FFF60056924C /* Supporting Files */,
+				840FF5E9185923DB0056924C /* SBDynamicLayoutView */,
 			);
 			path = DynamicLayoutTrial;
 			sourceTree = "<group>";
@@ -153,6 +166,47 @@
 				840FF5CF1858FFF60056924C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840FF5DF185900EC0056924C /* BaseFiles */ = {
+			isa = PBXGroup;
+			children = (
+				840FF5B31858FFF60056924C /* SBAppDelegate.h */,
+				840FF5B41858FFF60056924C /* SBAppDelegate.m */,
+				840FF5B61858FFF60056924C /* Main_iPhone.storyboard */,
+				840FF5B91858FFF60056924C /* Main_iPad.storyboard */,
+				840FF5BF1858FFF60056924C /* Images.xcassets */,
+			);
+			name = BaseFiles;
+			sourceTree = "<group>";
+		};
+		840FF5E9185923DB0056924C /* SBDynamicLayoutView */ = {
+			isa = PBXGroup;
+			children = (
+				840FF5DC185900160056924C /* SBDynamicLayoutView.h */,
+				840FF5DD185900160056924C /* SBDynamicLayoutView.m */,
+			);
+			name = SBDynamicLayoutView;
+			sourceTree = "<group>";
+		};
+		840FF5EA185923EF0056924C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				840FF5E0185901E50056924C /* layout.json */,
+				840FF5EE185927B70056924C /* remote.json */,
+				840FF5EB185923FB0056924C /* img */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		840FF5EB185923FB0056924C /* img */ = {
+			isa = PBXGroup;
+			children = (
+				840FF5EC185925C40056924C /* plus-25.png */,
+				840FF5E7185917940056924C /* back-25.png */,
+				840FF5E51859177D0056924C /* share-25.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +287,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				840FF5BB1858FFF60056924C /* Main_iPad.storyboard in Resources */,
+				840FF5E61859177D0056924C /* share-25.png in Resources */,
 				840FF5C01858FFF60056924C /* Images.xcassets in Resources */,
+				840FF5EF185927B70056924C /* remote.json in Resources */,
+				840FF5E8185917940056924C /* back-25.png in Resources */,
 				840FF5B81858FFF60056924C /* Main_iPhone.storyboard in Resources */,
 				840FF5AF1858FFF60056924C /* InfoPlist.strings in Resources */,
+				840FF5ED185925C40056924C /* plus-25.png in Resources */,
+				840FF5E1185901E50056924C /* layout.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +316,7 @@
 				840FF5B11858FFF60056924C /* main.m in Sources */,
 				840FF5BE1858FFF60056924C /* SBViewController.m in Sources */,
 				840FF5B51858FFF60056924C /* SBAppDelegate.m in Sources */,
+				840FF5DE185900160056924C /* SBDynamicLayoutView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,9 +453,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/admin/Development/ios/DynamicLayoutTrial,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DynamicLayoutTrial/DynamicLayoutTrial-Prefix.pch";
 				INFOPLIST_FILE = "DynamicLayoutTrial/DynamicLayoutTrial-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,9 +475,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/admin/Development/ios/DynamicLayoutTrial,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DynamicLayoutTrial/DynamicLayoutTrial-Prefix.pch";
 				INFOPLIST_FILE = "DynamicLayoutTrial/DynamicLayoutTrial-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
