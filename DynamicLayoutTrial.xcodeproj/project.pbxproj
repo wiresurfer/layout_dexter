@@ -28,6 +28,7 @@
 		840FF5E8185917940056924C /* back-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5E7185917940056924C /* back-25.png */; };
 		840FF5ED185925C40056924C /* plus-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5EC185925C40056924C /* plus-25.png */; };
 		840FF5EF185927B70056924C /* remote.json in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5EE185927B70056924C /* remote.json */; };
+		840FF5F318592A9B0056924C /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840FF5F218592A9B0056924C /* Reveal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,11 +65,11 @@
 		840FF5DC185900160056924C /* SBDynamicLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDynamicLayoutView.h; sourceTree = "<group>"; };
 		840FF5DD185900160056924C /* SBDynamicLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBDynamicLayoutView.m; sourceTree = "<group>"; };
 		840FF5E0185901E50056924C /* layout.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = layout.json; path = ../layout.json; sourceTree = "<group>"; };
-		840FF5E2185910730056924C /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		840FF5E51859177D0056924C /* share-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "share-25.png"; path = "../share-25.png"; sourceTree = "<group>"; };
 		840FF5E7185917940056924C /* back-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back-25.png"; path = "../back-25.png"; sourceTree = "<group>"; };
 		840FF5EC185925C40056924C /* plus-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-25.png"; sourceTree = "<group>"; };
 		840FF5EE185927B70056924C /* remote.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = remote.json; sourceTree = "<group>"; };
+		840FF5F218592A9B0056924C /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 				840FF5A71858FFF50056924C /* CoreGraphics.framework in Frameworks */,
 				840FF5A91858FFF50056924C /* UIKit.framework in Frameworks */,
 				840FF5A51858FFF50056924C /* Foundation.framework in Frameworks */,
+				840FF5F318592A9B0056924C /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +119,7 @@
 		840FF5A31858FFF50056924C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				840FF5E2185910730056924C /* Reveal.framework */,
+				840FF5F218592A9B0056924C /* Reveal.framework */,
 				840FF5A41858FFF50056924C /* Foundation.framework */,
 				840FF5A61858FFF50056924C /* CoreGraphics.framework */,
 				840FF5A81858FFF50056924C /* UIKit.framework */,
@@ -553,6 +555,7 @@
 				840FF5D81858FFF60056924C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		840FF5D91858FFF60056924C /* Build configuration list for PBXNativeTarget "DynamicLayoutTrialTests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +564,7 @@
 				840FF5DB1858FFF60056924C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
