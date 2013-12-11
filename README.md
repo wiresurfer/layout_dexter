@@ -36,8 +36,10 @@ Note the use of `children_remote`  to refer to a JSON file on a remote URL.
 About Layout Dexter
 ===================
 
-Layout Dexter is based on a dinner table discussion and some hacking around, here is a simple JSON based layouting system for iOS.The code is more of a proof of concept. I would be spending roughly the period of the holidays to make this a bit more polished/usable. Contributions welcome. 
-Disclaimers: This was whipped up in roughly an hour. So its fairly primitive. Objective-C is not my first langugage and I would love to hear from the "gurus" about what are better ways of achieving this. 
+Layout Dexter is based on a dinner table discussion and some hacking around.
+The code is more of a proof of concept. I would be spending roughly the period of the holidays to make this a bit more polished/usable. Contributions welcome.
+
+`Disclaimers:` This was whipped up in roughly an hour. So its fairly primitive. Objective-C is not my first langugage and I would love to hear from the "gurus" about what are better ways of achieving this. 
 More importantly I want to know if doing such a thing(json for layouts/ remote layouts changing vies) even makes remote sense. 
 Then there are Questions about whether this kind of code is acceptable from an Appstore Certification point of view.
 
