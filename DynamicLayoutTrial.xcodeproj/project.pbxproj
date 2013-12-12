@@ -23,12 +23,12 @@
 		840FF5D11858FFF60056924C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5CF1858FFF60056924C /* InfoPlist.strings */; };
 		840FF5D31858FFF60056924C /* DynamicLayoutTrialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FF5D21858FFF60056924C /* DynamicLayoutTrialTests.m */; };
 		840FF5DE185900160056924C /* SBDynamicLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FF5DD185900160056924C /* SBDynamicLayoutView.m */; };
-		840FF5E1185901E50056924C /* layout.json in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5E0185901E50056924C /* layout.json */; };
-		840FF5E61859177D0056924C /* share-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5E51859177D0056924C /* share-25.png */; };
-		840FF5E8185917940056924C /* back-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5E7185917940056924C /* back-25.png */; };
-		840FF5ED185925C40056924C /* plus-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5EC185925C40056924C /* plus-25.png */; };
-		840FF5EF185927B70056924C /* remote.json in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5EE185927B70056924C /* remote.json */; };
-		840FF5F318592A9B0056924C /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840FF5F218592A9B0056924C /* Reveal.framework */; };
+		840FF5F8185933CC0056924C /* back-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5F5185933CC0056924C /* back-25.png */; };
+		840FF5F9185933CC0056924C /* plus-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5F6185933CC0056924C /* plus-25.png */; };
+		840FF5FA185933CC0056924C /* share-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5F7185933CC0056924C /* share-25.png */; };
+		840FF5FC185934050056924C /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840FF5FB185934050056924C /* Reveal.framework */; };
+		840FF600185934590056924C /* layout.json in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5FE185934590056924C /* layout.json */; };
+		840FF601185934590056924C /* remote.json in Resources */ = {isa = PBXBuildFile; fileRef = 840FF5FF185934590056924C /* remote.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,12 +64,12 @@
 		840FF5D21858FFF60056924C /* DynamicLayoutTrialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicLayoutTrialTests.m; sourceTree = "<group>"; };
 		840FF5DC185900160056924C /* SBDynamicLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDynamicLayoutView.h; sourceTree = "<group>"; };
 		840FF5DD185900160056924C /* SBDynamicLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBDynamicLayoutView.m; sourceTree = "<group>"; };
-		840FF5E0185901E50056924C /* layout.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = layout.json; path = ../layout.json; sourceTree = "<group>"; };
-		840FF5E51859177D0056924C /* share-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "share-25.png"; path = "../share-25.png"; sourceTree = "<group>"; };
-		840FF5E7185917940056924C /* back-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back-25.png"; path = "../back-25.png"; sourceTree = "<group>"; };
-		840FF5EC185925C40056924C /* plus-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-25.png"; sourceTree = "<group>"; };
-		840FF5EE185927B70056924C /* remote.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = remote.json; sourceTree = "<group>"; };
-		840FF5F218592A9B0056924C /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		840FF5F5185933CC0056924C /* back-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-25.png"; sourceTree = "<group>"; };
+		840FF5F6185933CC0056924C /* plus-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-25.png"; sourceTree = "<group>"; };
+		840FF5F7185933CC0056924C /* share-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-25.png"; sourceTree = "<group>"; };
+		840FF5FB185934050056924C /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = DynamicLayoutTrial/Frameworks/Reveal.framework; sourceTree = "<group>"; };
+		840FF5FE185934590056924C /* layout.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = layout.json; sourceTree = "<group>"; };
+		840FF5FF185934590056924C /* remote.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = remote.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 				840FF5A71858FFF50056924C /* CoreGraphics.framework in Frameworks */,
 				840FF5A91858FFF50056924C /* UIKit.framework in Frameworks */,
 				840FF5A51858FFF50056924C /* Foundation.framework in Frameworks */,
-				840FF5F318592A9B0056924C /* Reveal.framework in Frameworks */,
+				840FF5FC185934050056924C /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +119,7 @@
 		840FF5A31858FFF50056924C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				840FF5F218592A9B0056924C /* Reveal.framework */,
+				840FF5FB185934050056924C /* Reveal.framework */,
 				840FF5A41858FFF50056924C /* Foundation.framework */,
 				840FF5A61858FFF50056924C /* CoreGraphics.framework */,
 				840FF5A81858FFF50056924C /* UIKit.framework */,
@@ -194,21 +194,29 @@
 		840FF5EA185923EF0056924C /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				840FF5E0185901E50056924C /* layout.json */,
-				840FF5EE185927B70056924C /* remote.json */,
-				840FF5EB185923FB0056924C /* img */,
+				840FF5FD185934590056924C /* layouts */,
+				840FF5F4185933CC0056924C /* img */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
 		};
-		840FF5EB185923FB0056924C /* img */ = {
+		840FF5F4185933CC0056924C /* img */ = {
 			isa = PBXGroup;
 			children = (
-				840FF5EC185925C40056924C /* plus-25.png */,
-				840FF5E7185917940056924C /* back-25.png */,
-				840FF5E51859177D0056924C /* share-25.png */,
+				840FF5F5185933CC0056924C /* back-25.png */,
+				840FF5F6185933CC0056924C /* plus-25.png */,
+				840FF5F7185933CC0056924C /* share-25.png */,
 			);
-			name = img;
+			path = img;
+			sourceTree = "<group>";
+		};
+		840FF5FD185934590056924C /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+				840FF5FE185934590056924C /* layout.json */,
+				840FF5FF185934590056924C /* remote.json */,
+			);
+			path = layouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,14 +297,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				840FF5BB1858FFF60056924C /* Main_iPad.storyboard in Resources */,
-				840FF5E61859177D0056924C /* share-25.png in Resources */,
+				840FF600185934590056924C /* layout.json in Resources */,
 				840FF5C01858FFF60056924C /* Images.xcassets in Resources */,
-				840FF5EF185927B70056924C /* remote.json in Resources */,
-				840FF5E8185917940056924C /* back-25.png in Resources */,
+				840FF601185934590056924C /* remote.json in Resources */,
+				840FF5FA185933CC0056924C /* share-25.png in Resources */,
+				840FF5F8185933CC0056924C /* back-25.png in Resources */,
 				840FF5B81858FFF60056924C /* Main_iPhone.storyboard in Resources */,
 				840FF5AF1858FFF60056924C /* InfoPlist.strings in Resources */,
-				840FF5ED185925C40056924C /* plus-25.png in Resources */,
-				840FF5E1185901E50056924C /* layout.json in Resources */,
+				840FF5F9185933CC0056924C /* plus-25.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +466,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/admin/Development/ios/DynamicLayoutTrial,
+					/Users/admin/Development/ios/DynamicLayoutTrial/DynamicLayoutTrial/Frameworks,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DynamicLayoutTrial/DynamicLayoutTrial-Prefix.pch";
@@ -480,6 +489,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/admin/Development/ios/DynamicLayoutTrial,
+					/Users/admin/Development/ios/DynamicLayoutTrial/DynamicLayoutTrial/Frameworks,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DynamicLayoutTrial/DynamicLayoutTrial-Prefix.pch";
