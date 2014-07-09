@@ -1,7 +1,8 @@
 Layout Dexter
 =============
-
-Super awesome layouts for iOS apps written in JSON! 
+Layout as API endpoints!
+Your backend returns formatted layout. Your App just renders them!
+Dynamic, customizable and super-quick to build.
 
 Key Features
   * Layouts specified in JSON
